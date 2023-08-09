@@ -1,0 +1,13 @@
+node_modules/: This folder contains all the dependencies of project, which are installed using npm install or yarn install. These dependencies are used by the JavaScript code in project.
+public/: This folder contains static files that are accessible to all users, such as images, CSS files, and JavaScript files.
+src/: This folder contains the source code of project. This is where we create pages, layouts, and styles.
+app/: This folder contains the main components of the project. This is where we will create our pages, layouts, and styles.
+page.js: This file is a React component that represents a single page in the application. It is responsible for rendering the content of the page.
+page.module.css: This file contains the CSS styles for the page.js component. This file is a module file, which means that it is imported and exported using JavaScript modules. This allows Next.js to optimize the CSS code for the page.
+layout.js: This file is a React component that represents the layout of the application. It is often used to wrap other components, such as pages, in a common container.
+globals.css: This file contains global CSS styles that are applied to all the in your application. 
+.gitignore: This file tells Git which files to ignore when tracking the project's changes. 
+jsconfig.json: This file configures the JavaScript compiler for the project. This includes things like the JavaScript version and the import/export settings.
+next.config.js: This file configures Next.js for the project. This includes things like the custom server configuration, the default webpack configuration, and the custom middleware.
+package.json: This file lists the dependencies of the project and specifies the scripts that can be run to build, test, and deploy your project. This is a required file for any JavaScript project that uses NPM or Yarn.
+package-lock.json: This file is a lock file that records the exact versions of the dependencies that were installed in the project. This ensures that the project always builds with the same dependencies, even if the versions of those dependencies change in the future.
